@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useRef } from "react";
 import Showdown from "showdown";
-import Style from "../styles/home.module.css"
+import Style from "../styles/index.module.css"
 
 export default function Home() {
   const div = useRef()
