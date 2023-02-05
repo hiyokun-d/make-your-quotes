@@ -1,6 +1,5 @@
 # make your quotes
 
-
 This is a react component that allows you to write and display text in markdown syntax.
 
 ## Features
