@@ -1,10 +1,9 @@
 import Head from "next/head";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import Showdown from "showdown";
-import Style from "../styles/home.module.css"
+import Style from "/styles/home.module.css"
 
 export default function Home() {
-  const [output, setOutPut] = useState()
   const div = useRef()
   const converter = new Showdown.Converter()
 
@@ -17,7 +16,6 @@ export default function Home() {
       html += converter.makeHtml(element);
     }
 
-    setOutPut(html);
     div.current.innerHTML = html;
   }
 
