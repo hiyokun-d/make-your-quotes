@@ -49,6 +49,7 @@ and the fun part is this textarea can be **resize** yeaaaah :)
 
       <footer className={Style.footer}>
         <p>This page made by ・ <a href="https://github.com/hiyokun-d/">HIYO</a> ・ with ♥︎</p>
+        <p>version: 1</p>
       </footer>
     </div>
   )
