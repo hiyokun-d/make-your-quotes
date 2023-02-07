@@ -4,4 +4,5 @@
 
 This app i made, so i can make a quotes that looks good to see. also aesthetic for my whatsapp status
 If you want to change anything of this project just add it and don't ruin the code Please.
-and you must be screenshot the quotes because i don't know how to make download mechanism
+and you must be screenshot the quotes because i don't know how to make download mechanism. just help me design this because i don't know
+how to design this page to support mobile device
