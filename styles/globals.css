@@ -10,6 +10,21 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+		color: white;
+		background: #4b79a1
+		 -webkit-linear-gradient(
+			right,
+			#283e51,
+			#4b79a1
+		); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(
+			to right,
+			#283e51,
+			#4b79a1
+		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a {
@@ -24,19 +39,5 @@ a {
 @media (prefers-color-scheme: dark) {
 	html {
 		color-scheme: dark;
-	}
-	body {
-		color: white;
-		background: #4b79a1; /* fallback for old browsers */
-		background: -webkit-linear-gradient(
-			to right,
-			#283e51,
-			#4b79a1
-		); /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(
-			to right,
-			#283e51,
-			#4b79a1
-		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	}
 }
